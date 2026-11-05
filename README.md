@@ -19,4 +19,4 @@ Static export of the Torelli: Furniture & Interiors website, built in Adobe Muse
 
 - 13,461 site files, about 845 MB (images 712 MB).
 - jQuery loads from the local `site/scripts/` fallback over HTTPS. The old Business Catalyst CDN is gone.
-- Proxima Nova web fonts in `site/fonts/` are commercially licensed (Mark Simonson). Keep the repo private.
+- Proxima Nova web fonts in `site/fonts/` are commercially licensed (Mark Simonson).
