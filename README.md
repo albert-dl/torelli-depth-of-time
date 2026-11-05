@@ -6,10 +6,12 @@ Static export of the Torelli: Furniture & Interiors website, built in Adobe Muse
 
 - `site/` is the full static site, served as-is. Open `site/index.html` locally or deploy the folder.
 - `_source/` holds the `.psd` / `.ai` working files from the export. No page uses them, so they are kept out of the live site. The export's `assets/.htpasswd` password file is deliberately not in this repo.
-- `netlify.toml` points Netlify at `site/` with no build step.
+- `vercel.json` and `netlify.toml` point Vercel and Netlify at `site/` with no build step, and send the noindex header.
 - `site/_headers` sends `X-Robots-Tag: noindex` so the backup stays out of search results. Delete it to allow indexing.
 
 ## Hosting
+
+Live on Vercel: https://torelli-dot.vercel.app/
 
 **Netlify:** Add new site > Import an existing project > GitHub > this repo. Settings are picked up from `netlify.toml`.
 
