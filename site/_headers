@@ -1,0 +1,3 @@
+# Keep this backup copy out of search results (read by Netlify and Cloudflare Pages).
+/*
+  X-Robots-Tag: noindex, nofollow
