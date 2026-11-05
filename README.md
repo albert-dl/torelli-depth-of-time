@@ -5,7 +5,7 @@ Static export of the Torelli: Furniture & Interiors website, built in Adobe Muse
 ## Layout
 
 - `site/` is the full static site, served as-is. Open `site/index.html` locally or deploy the folder.
-- `_source/` holds files that were in the export but are not used by any page and must not go live: `.htpasswd` and the `.psd` / `.ai` working files.
+- `_source/` holds the `.psd` / `.ai` working files from the export. No page uses them, so they are kept out of the live site. The export's `assets/.htpasswd` password file is deliberately not in this repo.
 - `netlify.toml` points Netlify at `site/` with no build step.
 - `site/_headers` sends `X-Robots-Tag: noindex` so the backup stays out of search results. Delete it to allow indexing.
 
